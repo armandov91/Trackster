@@ -1,3 +1,28 @@
 /*
   Custom styles for Trackster App
 */
+html {
+  font-size: 16px;
+}
+
+
+
+.header_section {
+  background-color: rgb(35, 2, 63);
+}
+
+.header_title {
+font-family: Righteous;
+font-size: 2.5rem;
+color: rgb(255, 0, 171);
+}
+
+.header_section input {
+  color: rgb(191, 191, 191);
+  border-radius: 8px;
+}
+
+.header_button {
+  background-color: rgb(255, 102, 204);
+  border-radius: 8px;
+}
