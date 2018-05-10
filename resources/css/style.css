@@ -3,12 +3,15 @@
 */
 html {
   font-size: 16px;
+
 }
-
-
+body {
+  line-height: 2;
+}
 
 .header_section {
   background-color: rgb(35, 2, 63);
+  padding: 3rem 0;
 }
 
 .header_title {
@@ -19,10 +22,47 @@ color: rgb(255, 0, 171);
 
 .header_section input {
   color: rgb(191, 191, 191);
-  border-radius: 8px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  outline: none;
 }
 
-.header_button {
+.header_section i {
   background-color: rgb(255, 102, 204);
-  border-radius: 8px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0.2rem;
+  margin-top: 2rem;
+  height: 2rem;
+}
+
+.description_section {
+  background-color: rgb(104, 0, 255);
+  padding: 0.5rem 0;
+}
+
+.description_section span {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#songs_list {
+background-color: rgb(204, 204, 204);
+}
+
+.song_row {
+  border-bottom: 1px solid white;
+  padding: 1rem 0;
+}
+.song_row span {
+  text-align: center;
+}
+
+.song_row div {
+  text-align: center;
+}
+.song_row img {
+  width: 30%;
+  margin: auto;
 }

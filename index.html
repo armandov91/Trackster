@@ -10,23 +10,30 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./resources/js/trackster.js"></script>
+  <script type="text/javascript" src="./resources/js/tests.js"></script>
 </head>
 <body>
- <div class="container-fluid header_section">
+ <div class="container-fluid">
+   <div class="row header_section">
+     <h1 class="col-xs-7 col-xs-offset-1 header_title ">trackster</h1>
+       <input class="col-xs-2" type="text" id="search_field" placeholder="Search...">
+       <i class="fas fa-search fa-2x col-xs-1" id="header_search_button"></i>
+   </div>
+   <div class="row description_section">
+     <span class="col-xs-4">Song</span>
+     <span class="col-xs-3">Artist</span>
+     <span class="col-xs-3">Album Art</span>
+     <span class="col-xs-2">Listeners</span>
+   </div>
    <div class="row">
-     <h1 class="col-xs-7 col-xs-offset-1 header_title vcenter">trackster</h1>
-     <input class="col-xs-2 vcenter" type="text" name="query_text" value="">
-     <div class="col-xs-1 header_button vcenter">
-       <i class="fas fa-search" id="header_search_button"></i>
+     <div class="container" id="songs_list">
+       
      </div>
    </div>
  </div>
-
- <!-- SCRIPTS -->
- <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-         crossorigin="anonymous"></script>
- <script type="text/javascript" src="./resources/js/trackster.js"></script>
- <script type="text/javascript" src="./resources/js/tests.js"></script>
 </body>
 </html>
